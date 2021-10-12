@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/beranda"
+        android:title="Beranda"/>
+    <item
+        android:icon="@drawable/icons8_medal_first_place_48px"
+        android:id="@+id/kompetisi"
+        android:title="Kompetisi"/>
+    <item
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:id="@+id/profil"
+        android:title="Profil"/>
+</menu>
