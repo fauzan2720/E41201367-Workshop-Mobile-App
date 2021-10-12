@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="daftar"><u>daftar</u></string>
+    <string name="lupa_pwd"><u>Lupa kata sandi</u></string>
+</resources>
