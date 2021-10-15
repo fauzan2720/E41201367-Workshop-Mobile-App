@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="#333"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Pendataan"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <!-- Nama Lengkap -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:text="Nama Lengkap"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="12dp"
+        android:paddingLeft="18dp"
+        android:hint="Nama Lengkap"
+        android:textSize="16sp"
+        android:background="@drawable/custom_input"/>
+
+    <!-- Telepon -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="15dp"
+        android:text="Telepon"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/etNoTelp"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="12dp"
+            android:paddingLeft="18dp"
+            android:hint="Telepon"
+            android:textSize="16sp"
+            android:background="@drawable/custom_input_left"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPesan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:layout_weight="3"
+            android:background="@drawable/custom_button_right"
+            android:text="Pesan"
+            android:textColor="@color/white"
+            android:onClick="buka_email"/>
+    </LinearLayout>
+
+    <!-- Alamat -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Alamat"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/etMap"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_baseline_maps_home_work_24"
+            android:drawablePadding="12dp"
+            android:paddingLeft="18dp"
+            android:hint="Alamat"
+            android:textSize="16sp"
+            android:background="@drawable/custom_input_left"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCek"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:layout_weight="3"
+            android:background="@drawable/custom_button_right"
+            android:text="Cek"
+            android:textColor="@color/white"
+            android:onClick="buka_map"/>
+    </LinearLayout>
+
+    <!-- Kunjungi Url -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Kunjungi Url"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/etBrowsing"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_baseline_open_in_browser_24"
+            android:drawablePadding="12dp"
+            android:paddingLeft="18dp"
+            android:hint="Kunjungi Url"
+            android:textSize="16sp"
+            android:background="@drawable/custom_input_left"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnKunjungi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:layout_weight="3"
+            android:background="@drawable/custom_button_right"
+            android:text="Kunjungi"
+            android:textColor="@color/white"
+            android:onClick="buka_browser"/>
+    </LinearLayout>
+
+    <!-- Kirim data -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Kirim"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+</LinearLayout>
