@@ -9,3 +9,5 @@ Tugas pertemuan ke-2 : FirstApp
 Tugas pertemuan ke-4 : CompetitionApp
 
 Tugas pertemuan ke-5 : FragmentApp
+
+Tugas pertemuan ke-6 : IntentApp
