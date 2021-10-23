@@ -16,11 +16,11 @@ Nama : Fauzan Abdillah
 
 ![1  add file private](https://user-images.githubusercontent.com/74108522/138555016-af4edeb2-72fa-43c8-b01c-96bb57e05d39.jpg)
 
-- View File Public
+- Show File Public
 
 ![1  view public](https://user-images.githubusercontent.com/74108522/138555020-e3f94e67-f140-410d-ba43-511d28cad683.jpg)
 
-- View File Private
+- Show File Private
 
 ![1  view private](https://user-images.githubusercontent.com/74108522/138555018-4db811f4-0ad4-437b-a2b7-fb1a952ee1a5.jpg)
 
