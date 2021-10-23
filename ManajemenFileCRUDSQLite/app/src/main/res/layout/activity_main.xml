@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMaFile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Manajemen File"
+        android:textColor="@color/white"
+        android:background="#252A4C"
+        android:textSize="36sp"
+        android:textAllCaps="false"
+        android:onClick="maFile"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCRUD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:text="CRUD SQLite"
+        android:textColor="@color/white"
+        android:background="#252A4C"
+        android:textSize="36sp"
+        android:textAllCaps="false"
+        android:onClick="crud"/>
+</LinearLayout>

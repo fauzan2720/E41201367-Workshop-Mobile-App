@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".UpdateDataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Perbarui Data"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <!-- nomor -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nomor"/>
+
+    <EditText
+        android:id="@+id/txtNomor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="20dp"
+        android:inputType="number"
+        android:maxLength="10">
+
+        <requestFocus/>
+    </EditText>
+
+    <!-- nama -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nama"/>
+
+    <EditText
+        android:id="@+id/txtNama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:maxLength="20"/>
+
+    <!-- tanggal lahir -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Tanggal Lahir"/>
+
+    <EditText
+        android:id="@+id/txtTglLahir"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="20dp"
+        android:inputType="date"/>
+
+    <!-- jenis kelamin -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Jenis Kelamin"/>
+
+    <EditText
+        android:id="@+id/txtJnsKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:maxLength="1"
+        android:hint="L atau P"/>
+
+    <!-- alamat -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Alamat"/>
+
+    <EditText
+        android:id="@+id/txtAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:paddingLeft="20dp"
+        android:inputType="text"
+        android:maxLength="100"/>
+
+    <!-- mebuat tombol berada dibawah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <!-- tombol kembali -->
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="Kembali"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_new_24"/>
+
+        <!-- tombol simpan -->
+        <Button
+            android:id="@+id/btnPerbarui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:text="Perbarui"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_baseline_done_24"/>
+    </LinearLayout>
+</LinearLayout>
