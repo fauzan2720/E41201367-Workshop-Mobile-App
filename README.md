@@ -11,3 +11,5 @@ Tugas pertemuan ke-4 : CompetitionApp
 Tugas pertemuan ke-5 : FragmentApp
 
 Tugas pertemuan ke-6 : IntentApp
+
+Tugas pertemuan ke-7 : ManajemenFileCRUDSQLite
