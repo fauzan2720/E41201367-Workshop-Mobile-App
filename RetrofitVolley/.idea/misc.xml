@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/drawable-v24/custom_input.xml" value="0.240625" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/drawable/btn_light.xml" value="0.240625" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/drawable/ic_retrofit.xml" value="0.240625" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/drawable/ic_volley.xml" value="0.240625" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/drawable/ic_warning.xml" value="0.240625" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_create.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_edit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_login_retrofit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_login_volley.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_retrofit.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_update.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/activity_volley.xml" value="0.22447916666666667" />
+        <entry key="..\:/Matkul/AndroidStudioProjects/RetrofitVolley/app/src/main/res/layout/list_anggota.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

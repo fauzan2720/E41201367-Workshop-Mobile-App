@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/light"
+    tools:context=".retrofit.activity.UpdateActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="Perbarui Anggota:"
+        android:textColor="@color/grey"
+        android:textSize="25sp" />
+
+    <!-- Nama Lengkap -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="Nama Lengkap"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Nama Lengkap"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Nomor Telepon -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="Nomor Telepon"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/etNoTelp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Nomor Telepon"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Email -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="Email"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Email"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Alamat -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_home"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Alamat Lengkap"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Kata Sandi -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kata Sandi"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Kata Sandi"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_light"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="actionPerbarui"
+        android:text="Perbarui Data"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

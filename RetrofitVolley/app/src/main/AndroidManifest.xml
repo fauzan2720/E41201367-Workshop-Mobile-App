@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.retrofit_volley">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RetrofitVolley">
+        <activity
+            android:name=".retrofit.activity.LoginRetrofitActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".retrofit.activity.UpdateActivity"
+            android:exported="false"
+            android:parentActivityName=".retrofit.activity.RetrofitActivity" />
+        <activity
+            android:name=".retrofit.activity.CreateActivity"
+            android:exported="false"
+            android:parentActivityName=".retrofit.activity.RetrofitActivity" />
+        <activity
+            android:name=".retrofit.activity.RetrofitActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".volley.LoginVolleyActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

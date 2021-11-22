@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".retrofit.activity.LoginRetrofitActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk dengan Retrofit"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/etNoTelp"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Nomor Telepon"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kata Sandi"
+        android:fontFamily="sans-serif"
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="7dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="15dp"
+        android:hint="Kata Sandi"
+        android:layout_marginTop="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_light"
+        android:fontFamily="sans-serif-medium"
+        android:onClick="actionMasuk"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
